@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="video-container">
+    <video id="video-background" autoplay loop muted>
+      <source src="fd42566c-6b96-492d-af6b-f3af1f45a54c.mp4" type="video/mp4">
+      <!-- Add additional source elements for different video formats (e.g., WebM, Ogg) -->
+    </video>
+  </div>
+
+  <div class="container">
+    <div class="todo-app">
+      <h2>To-Do List <img src="to-do-list.png"></h2>
+      <div class="row">
+        <input type="text" id="input-box" placeholder="Add your Text">
+        <button onclick="addTask()">Add</button>
+      </div>
+      <ul id="list-container">
+        <!-- <li class="checked">Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li> -->
+      </ul>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
